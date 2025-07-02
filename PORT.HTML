@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="PORT.CSS" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <script defer src="PORT.JS"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">sonam kumari</h1>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button id="toggle-theme">🌓</button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <img src="sonam.jpeg" alt="Profile" class="profile-pic" />
+      <h2>Hello, I'm <span>sonam kumari</span></h2>
+      <p>A passionate Web Developer creating modern websites & apps.</p>
+      <a href="#https://github.com/Sonam287" class="btn">View My Work</a>
+      <a href="resume.pdf" class="btn resume" download>📄 Download Resume</a>
+    </div>
+  </section>
+
+  <section id="about" class="about fade-in">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I’m a frontend developer with experience in HTML, CSS, JavaScript, and React. I love building responsive, user-friendly websites.
+        <br>I’m a college student with a strong interest in frontend development,<br>g Alongside my studies, I’ve been building my skills in HTML, CSS, JavaScript, and React to create modern, responsive websites. I enjoy designing clean and user-friendly interfaces, and I’m constantly exploring new tools and technologies to improve my work.
+  </p>
+  <p>
+    My passion lies in turning ideas into interactive web experiences. <br>I love working on personal projects and learning by doing. As a student,<br> I believe in balancing theory with practical experience, and I’m always eager to collaborate, learn, and grow in the tech field.
+  </p>
+  <p>
+    My goal is to become a full-stack developer and contribute to real-world applications that make a positive impact.
+      </p>
+    </div>
+  </section>
+
+  <section id="projects" class="projects fade-in">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="amazon.jpeg" alt="Project One" />
+          <h3>Project One</h3>
+          <p>Amazon clone  using HTML, CSS.</p>
+        </div>
+        <div class="project-card">
+          <img src="bihar.jpeg" alt="Project Two" />
+          <h3>Project Two</h3>
+          <p>frontend desgine of bihar culture named as bihar darpan .</p>
+        </div>
+        <div class="project-card">
+          <img src="registration.jpeg" alt="Project Three" />
+          <h3>Project Three</h3>
+          <p>registration form.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact fade-in">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
